@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.carbs-wrapper {
+  background-color: rgb(247, 181, 58);
+  padding: 10px;
+}
+.protein-wrapper {
+  background-color: rgb(136, 136, 238);
+  padding: 10px;
+}
+.fat-wrapper {
+  background-color: rgb(233, 96, 96);
+  padding: 10px;
+}
+.button-block {
+  padding: 10px;
+}
+.button-block button {
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+.count-block {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.count-block:hover {
+  background-color: navajowhite;
+}
+.count-block img {
+  width: 10%;
+}
+.delete-btn {
+  background-color: #eb7460;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s transform;
+}
+.delete-btn:hover {
+  transform: scale(1.2);
+}
+button {
+  outline: none;
+}
+.item-name span {
+  margin-top: 50%;
+}
+.count-pie {
+  display: flex;
+}
+.pie-chart-block {
+  width: 30%;
+  padding-left: 10px;
+  position: relative;
+}
+header button {
+  background-color: transparent;
+  cursor: pointer;
+}
+.carbs-wrapper button:hover {
+  background-color: rgb(241, 158, 4);
+}
+.protein-wrapper button:hover {
+  background-color: rgb(18, 39, 230);
+}
+.fat-wrapper button:hover {
+  background-color: rgb(228, 37, 37);
+}
+.sport {
+  display: flex;
+  flex-direction: column;
+}
+.weight {
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
