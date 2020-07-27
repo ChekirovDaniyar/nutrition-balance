@@ -25,6 +25,7 @@ header {
   border-radius: 10px;
   border: none;
   padding: 5px;
+  font-size: 20px;
 }
 .count-block {
   display: flex;

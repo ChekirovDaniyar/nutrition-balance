@@ -24,7 +24,7 @@ const CountItem = props => {
             <div className="item-data">
                 <p>Carbs: {props.carbs * props.weight / 100}</p>
                 <p>Proteins: {props.protein * props.weight / 100}</p>
-                <p>Fats: {props.fat * props.weight / 100}</p>
+                <p>Fat: {props.fat * props.weight / 100}</p>
             </div>
             <div className="delete-block">
                 <button
